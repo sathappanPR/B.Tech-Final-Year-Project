@@ -1,8 +1,12 @@
 # <img src="https://github.com/sathappanPR/B.Tech-Final-Year-Project/assets/84607354/5b451cb6-ba6f-4fc4-91c8-b9db8781585a" width="40"> Controlling the speed of the simulated car in the CARLA simulator using YOLOv8m
 ## <img src="https://github.com/sathappanPR/B.Tech-Final-Year-Project/assets/84607354/2508111d-e6b9-4fe1-826f-3f834a3c9d30" width="40"> Simulator Result
-* A car was integrated with a camera that helps capture live feed from the roadside. Once the speed limit boards (30, 60, and 90) are detected and the car crosses the board, it will maintain a constant speed according to the speed limit on the roadside. This system will prevent accidents caused by vehicles speeding.
+* A car has been integrated with a camera that helps capture live feed from the roadside. Once the speed limit signs (30 km/h, 60 km/h, and 90 km/h) are detected, the first frame will display the car's speed in the left corner, while the second frame will show object detection. Initially, the car is traveling at a speed of 33 km/hr.
 
-![image](https://github.com/sathappanPR/B.Tech-Final-Year-Project/assets/84607354/b1e57dbf-fece-4176-9518-5b30a6f554df)
+![Screenshot 2024-04-15 100029](https://github.com/sathappanPR/B.Tech-Final-Year-Project/assets/84607354/186b8221-8de8-4efb-8841-f11558a9d9b6)
+
+* Once the speed limit signboard is detected and crossed, the speed will increase or decrease according to the board detection.
+
+![Screenshot 2024-04-15 100035](https://github.com/sathappanPR/B.Tech-Final-Year-Project/assets/84607354/d427a436-4594-4895-a378-f15d42b04067)
 
 ## <img src="https://github.com/sathappanPR/B.Tech-Final-Year-Project/assets/84607354/456a031f-ecf3-444e-91de-e3c26818c2db" width="20"> Web cam Results
 * Initially, the YOLO model is created and its performance is tested using the webcam to check the model's accuracy.
